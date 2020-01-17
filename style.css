@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+    background: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+body {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border: 1px solid #F3F3F3;
+    margin: 10px 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 850px;
+    grid-template-rows: 150px;
+    background: #89CFF8;
+}
+
+.selfie {
+    grid-column: 1 / 2;
+}
+
+.info {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+}
+
+.job-title {
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.content {
+    background: #FFFFFF;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 720px 200px;
+    grid-gap: 25px;
+}
+
+.content-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.summary {
+    grid-column: 1 / 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary p {
+    line-height: 1.5em;
+}
+
+.skills {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.skill-header {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.skill {
+    margin-top: 10px;
+}
+
+.bar {
+    background: #F3F3F3;
+    height: 20px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#html .inner {
+    background: #89CFF8;
+    height: 100%;
+    width: 90%;
+}
+
+#js .inner {
+    background: #89CFF8;
+    height: 100%;
+    width: 75%;
+}
+
+#node .inner {
+    background: #89CFF8;
+    height: 100%;
+    width: 60%;
+}
+
+#py .inner {
+    background: #89CFF8;
+    height: 100%;
+    width: 95%;
+}
+
+#wp .inner {
+    background: #89CFF8;
+    height: 100%;
+    width: 50%;
+}
+
+#lua .inner {
+    background: #89CFF8;
+    height: 100%;
+    width: 90%;
+}
+
+#csharp .inner {
+    background: #89CFF8;
+    height: 100%;
+    width: 85%;
+}
+
+#unity .inner {
+    background: #89CFF8;
+    height: 100%;
+    width: 40%;
+}
+
+.experience {
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.exp-date {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.education {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.school {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.degree {
+    font-size: 18px;
+}
