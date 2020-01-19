@@ -23,6 +23,20 @@ hr {
     margin: 10px 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.info span {
+    padding: 5px;
+}
+
 .header {
     display: grid;
     grid-template-columns: auto 850px;
@@ -71,9 +85,6 @@ hr {
     padding: 10px;
     display: flex;
     flex-direction: column;
-}
-
-.summary p {
     line-height: 1.5em;
 }
 
@@ -178,4 +189,8 @@ hr {
 
 .degree {
     font-size: 18px;
+}
+
+.course {
+    padding: 10px 0;
 }
